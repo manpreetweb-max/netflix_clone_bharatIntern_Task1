@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+<!-- main banner -->
+
+    <div class="main">
+        <div class="container">
+        <div class="logo">
+        <img src="logo.png">
+        <button class="btn_1" id="btn_1">Sign in</button>
+        </div>
+    
+        <h1>See what's next</h1>
+        <h2>WATCH ANYWHERE. CANCEL ANYTIME</h2>
+        <button class="btn_2">WATCH FREE FOR 30 DAYS </button>
+        </div>
+
+<!-- Plans -->
+
+        <div class="section">
+            <div id="item1"><a href="#"> Cancel at any time</a></div>
+            <div id="item2"><a href="#"> Watch anywhere</a></div>
+            <div id="item2"><a href="#"> pick your device</a></div>
+            
+        </div>  
+    </div>
+
+<!-- Popup Section -->
+
+    <div class="popup">
+        <img src="logo.png">
+        <img src="close.jpg" id="close">
+        <div class="popup_content">
+            <input type="email" placeholder="enter your email">
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <button id="btn_5">login</button>
+    </div>
+    </div>
+
+<!-- Subscribtion Section -->
+
+    <div class="another">
+        <img src="download.jpeg">
+    <h3>
+    If you decide Netflix isn't for you -<br> no problem. No <br>commitment. Cancel <br>online anytime.
+    </h3>
+    <button class="btn_3">WATCH FREE FOR 30 DAYS </button>
+    </div>
+    
+    <!-- footer section -->
+
+    <footer class="footer">
+        <p>Questions? Call 1-866-579-7172</p>
+        <div class="footer_col">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Ways To Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Buy Gift Cards</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <script>
+        document.getElementById("btn_1").addEventListener("click",function(){
+            document.querySelector(".popup").style.display="block";
+        });
+        document.getElementById("close").addEventListener("click",function(){
+            document.querySelector(".popup").style.display="none";
+        });
+    </script>
+</html>

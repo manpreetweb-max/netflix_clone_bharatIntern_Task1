@@ -1,0 +1,226 @@
+
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+-webkit-font-smoothing: antialiased;
+}
+
+/* Main Banner */
+
+.main {
+
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(banner.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    box-shadow:inset 120px 120px 250px #000000, inset -120px -120px 250px #000000;
+
+}
+.logo img{
+    position: absolute;
+top: 30px;
+left: 590px;
+height: 50px;
+width: 170px;
+}
+.logo .btn_1{
+position: absolute;
+background-color:#e50914;
+color: aliceblue;
+height: 35px;
+width: 95px;
+padding: 7px 21px;
+border-radius: 6px;
+font-size: 16px;
+top: 35px;
+left: 90%;
+border-style: none;
+cursor: pointer;
+}
+.container h1{
+font-size: 80px;
+color: white;
+position: absolute;
+top: 35%;
+left: 26%;
+}
+.container h2{
+font-size: 31px;
+color: white;
+position: absolute;
+    top: 55%;
+left: 27%;
+}
+.container .btn_2{
+font-size: 31px;
+color: white;
+position: absolute;
+background-color:#e50914;
+    top: 65%;
+left: 32%;
+border-style: none;
+padding: 24px 34px;
+}
+
+/* Plans */
+
+.section{
+width: 100%;
+height: 95px;
+color: white;
+position: absolute;
+display: flex;
+justify-content: space-around;
+background-color: #141414;
+top: 550px;
+opacity: 0.9;
+
+}
+a{
+text-decoration: none;
+color: white;
+opacity: 0.7;
+}
+.section #item1{
+padding-top: 40px;
+
+}
+.section #item2{
+padding-top: 40px;
+}
+.section #item3{
+padding-top: 40px;
+}
+
+/* Subscription Section */
+
+.another{
+width: 100%;
+height: 65vh;
+background-color: black;
+position: relative;
+padding-bottom: 50px;
+border-top:#353434ce 4px solid;
+}
+.another h3{
+color: white;
+font-size: 29px;
+padding-top: 100px;
+margin-left: 250px;
+}
+.btn_3{
+font-size: 20px;
+color: white;
+
+background-color:#e50914;
+margin-top: 50px;
+margin-left: 250px;
+border-style: none;
+padding: 15px 25px;
+cursor: pointer;
+}
+
+.another img{
+float: right;
+height: 250px;
+width: 300px;
+border-radius: 10px;
+margin-right: 250px;
+margin-top: 100px;
+}
+
+/* Login Pop up */
+
+.popup{
+    height: 60vh;
+    width: 25%;
+    background-color:rgba(15, 15, 15, 0.9);
+    color: aliceblue;
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    
+    
+    }
+    .popup img{
+    height: 20px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 35%;
+    
+    }
+    .popup_content{
+    position: absolute;
+    top: 17%;
+    left: 16%;
+    position: relative;
+    }
+    .popup_content input
+    {
+    margin-bottom: 30px;
+    height: 1.5rem;
+    width: 70%;
+    border-radius: 5px;
+    border-style: none;
+    }
+    #btn_5{
+    margin-left: 65px;
+    background-color:#e50914;
+    color: aliceblue;
+    height: 35px;
+    width: 95px;
+    padding: 7px 21px;
+    border-radius: 6px;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+    }
+    #close{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: -7%;
+    left: 59%;
+    cursor: pointer;
+    }
+
+    /* Footer */
+    
+.footer{
+background-color: black;
+color: aliceblue;
+display: grid;
+width: 100%;
+
+}
+.footer p{
+margin-left: 200px;
+color: rgba(255, 255, 255, 0.678);
+padding-top: 100px;
+}
+.footer .footer_col {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 30px;
+height: 30vh;
+width: 80%;
+margin-left: 200px;
+margin-right: 150px;
+margin-top: 100px;
+}
+.footer_col ul li{
+list-style: none;
+padding-top: 10px;
+}
+ul li a{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.678);
+font-size: 16px;
+
+}
